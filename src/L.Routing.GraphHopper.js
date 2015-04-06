@@ -138,8 +138,8 @@
 			var computeInstructions =
 				!(options && options.geometryOnly),
 				locs = [],
-				vehicle = this._vehicleTypes(options.vehicle),
-				locale = options.locale || 'en',
+				vehicle = this._vehicleTypes(this.options.vehicle),
+				locale = this.options.locale || 'en',
 				i;
 			
 			for (i = 0; i < waypoints.length; i++) {
