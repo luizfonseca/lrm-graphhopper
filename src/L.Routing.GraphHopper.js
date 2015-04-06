@@ -139,7 +139,7 @@
 				!(options && options.geometryOnly),
 				locs = [],
 				vehicle = this._vehicleTypes(options.vehicle),
-				locale = options.locale || 'en';
+				locale = options.locale || 'en',
 				i;
 			
 			for (i = 0; i < waypoints.length; i++) {
